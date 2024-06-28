@@ -9,7 +9,7 @@ import Skills from "./Skills";
 const Main = () => {
   return (
     <div className="bg-my-navy px-64">
-      <ul className="flex flex-col gap-7 social-links text-my-light-slate pl-10 text-sm font-mono">
+      <ul className="flex flex-col gap-7 social-links text-my-light-slate pl-16 text-sm font-mono">
         <li className="hover:text-my-green">
           <a href="http://">GT</a>
         </li>
@@ -26,7 +26,7 @@ const Main = () => {
       <div>
         <a
           href="mailto:sarveshmore1324@gmail.com"
-          className="text-write-mode-vertical text-my-light-slate text-sm hover:text-my-green font-mono pr-10"
+          className="text-write-mode-vertical text-my-light-slate text-sm hover:text-my-green font-mono pr-16"
         >
           sarveshmore1324@gamil.com
         </a>
