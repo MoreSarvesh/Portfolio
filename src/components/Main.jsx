@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import Contact from "./Contact";
 import About from "./About";
 import Skills from "./Skills";
+import Qualifications from "./Qualifications";
 
 const Main = () => {
   return (
@@ -19,6 +20,7 @@ const Main = () => {
       </ul>
       <Hero />
       <About />
+      <Qualifications />
       <Skills />
       <Work />
       <Projects />
@@ -31,6 +33,9 @@ const Main = () => {
           sarveshmore1324@gamil.com
         </a>
       </div>
+      <p className="text-center text-my-slate">
+        Developed by @Sarvesh More, inspired by @Brittany Chiang.
+      </p>
     </div>
   );
 };

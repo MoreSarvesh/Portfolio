@@ -8,19 +8,22 @@ const Navbar = () => {
       </div>
       <div className="flex gap-10">
         <span className="px-3 py-2 hover:text-my-green">
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </span>
         <span className="px-3 py-2 hover:text-my-green">
-          <a href="#">Skills</a>
+          <a href="#qualification">Qualification</a>
         </span>
         <span className="px-3 py-2 hover:text-my-green">
-          <a href="#">Work</a>
+          <a href="#skills">Skills</a>
         </span>
         <span className="px-3 py-2 hover:text-my-green">
-          <a href="#">Projects</a>
+          <a href="#work">Work</a>
         </span>
         <span className="px-3 py-2 hover:text-my-green">
-          <a href="#">Contact</a>
+          <a href="#projects">Projects</a>
+        </span>
+        <span className="px-3 py-2 hover:text-my-green">
+          <a href="#contact">Contact</a>
         </span>
         <span className="px-5 py-2 bg-transparent border rounded-md border-my-green text-my-green">
           Resume

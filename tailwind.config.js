@@ -12,6 +12,7 @@ export default {
         "my-lightest-slate": "#ccd6f6",
         "my-white": "#e6f1ff",
         "my-green": "#64ffda",
+        "my-div-navy": "#112240",
       },
     },
   },

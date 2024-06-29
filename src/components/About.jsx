@@ -2,19 +2,19 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-52 px-16 ">
+    <section className="py-52 px-16" id="about">
       <h1 className="font-sans font-bold text-3xl relative after:absolute text-my-white after:top-1/2 after:bg-my-lightest-navy after:ml-2 after:h-px after:inline-block after:w-2/5 mb-6">
         About Me
       </h1>
       <div className="flex flex-row flex-grow">
         <div className="min-w-[60%] flex flex-col gap-4 text-my-slate text-lg">
           <p>
-            I'm a recent graduate with a Bachelor's degree in Computer
-            Engineering, excited to embark on my journey as a full stack
-            developer. My academic journey provided a solid foundation in
-            computer engineering, and now I'm eager to apply{" "}
-            <span className="text-my-green">MERN stack</span> skills and
-            contribute to real-world projects.
+            I'm a recent graduate with a Bachelor's degree in{" "}
+            <span className="text-my-green">Computer Engineering</span>, excited
+            to embark on my journey as a full stack developer. My academic
+            journey provided a solid foundation in computer engineering, and now
+            I'm eager to apply <span className="text-my-green">MERN stack</span>{" "}
+            skills and contribute to real-world projects.
           </p>
           <p>
             When I'm not immersed in code, I have a variety of interests that
