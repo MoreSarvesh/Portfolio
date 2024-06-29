@@ -7,15 +7,29 @@ import About from "./About";
 import Skills from "./Skills";
 import Qualifications from "./Qualifications";
 
+//icons
+import { LuGithub } from "react-icons/lu";
+import { LuLinkedin } from "react-icons/lu";
+import { LuInstagram } from "react-icons/lu";
+
 const Main = () => {
   return (
     <div className="bg-my-navy px-64">
-      <ul className="flex flex-col gap-7 social-links text-my-light-slate pl-16 text-sm font-mono">
+      <ul className="flex flex-col gap-7 social-links text-my-light-slate pl-16 text-xl font-mono ">
         <li className="hover:text-my-green">
-          <a href="http://">GT</a>
+          <a href="http://">
+            <LuGithub />
+          </a>
         </li>
         <li className="hover:text-my-green">
-          <a href="http://">LI</a>
+          <a href="http://">
+            <LuLinkedin />
+          </a>
+        </li>
+        <li className="hover:text-my-green">
+          <a href="http://">
+            <LuInstagram />
+          </a>
         </li>
       </ul>
       <Hero />

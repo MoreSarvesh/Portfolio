@@ -1,4 +1,7 @@
-import React from "react";
+//icons
+import { LuGithub } from "react-icons/lu";
+import { LuLinkedin } from "react-icons/lu";
+import { LuInstagram } from "react-icons/lu";
 
 const Contact = () => {
   return (
@@ -14,14 +17,20 @@ const Contact = () => {
         send me a message!
       </div>
       <ul className="flex justify-center gap-16 p-16">
-        <li>
-          <a href="http://">GT</a>
+        <li className="hover:text-my-green text-my-light-slate text-xl">
+          <a href="http://">
+            <LuGithub />
+          </a>
         </li>
-        <li>
-          <a href="http://">LI</a>
+        <li className="hover:text-my-green text-my-light-slate text-xl">
+          <a href="http://">
+            <LuLinkedin />
+          </a>
         </li>
-        <li>
-          <a href="http://">IT</a>
+        <li className="hover:text-my-green text-my-light-slate text-xl">
+          <a href="http://">
+            <LuInstagram />
+          </a>
         </li>
       </ul>
       <button className="px-5 py-2 bg-transparent border rounded-md border-my-green text-my-green text-2xl font-mono">
