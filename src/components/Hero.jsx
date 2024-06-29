@@ -15,9 +15,13 @@ const Hero = () => {
         Developer. Currently, I'm focous on mastering the{" "}
         <span className="text-my-green">MERN stack</span>.
       </div>
-      <button className="px-5 py-2 bg-transparent border rounded-md border-my-green text-my-green mt-12 text-2xl font-mono">
-        Explore
-      </button>
+      <div className="bg-my-green w-fit h-fit rounded-md">
+        <a href="#about">
+          <div className="px-5 py-2 bg-my-navy border rounded-md border-my-green text-my-green mt-12 text-2xl font-mono hover:-translate-y-1 hover:-translate-x-1 duration-150">
+            Explore
+          </div>
+        </a>
+      </div>
     </section>
   );
 };
