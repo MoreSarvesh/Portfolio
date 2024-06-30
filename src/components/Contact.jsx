@@ -10,22 +10,22 @@ const Contact = () => {
         Get In Touch
       </h1>
       <div className="text-lg font-sans text-my-slate w-1/2 leading-relax mt-7 text-center">
-        Want to collaborate project in mind or just want to say hi? Feel free to
+        Want to collaborate on a project or just want to say hi? Feel free to
         send me a message!
       </div>
       <ul className="flex justify-center gap-16 p-16">
         <li className="hover:text-my-green text-my-light-slate text-xl hover:-translate-y-1">
-          <a href="http://">
+          <a href="https://github.com/MoreSarvesh">
             <LuGithub />
           </a>
         </li>
         <li className="hover:text-my-green text-my-light-slate text-xl hover:-translate-y-1">
-          <a href="http://">
+          <a href="https://www.linkedin.com/in/sarvesh-more-b255b51b9">
             <LuLinkedin />
           </a>
         </li>
         <li className="hover:text-my-green text-my-light-slate text-xl hover:-translate-y-1">
-          <a href="http://">
+          <a href="https://www.instagram.com/sarvesh_.more?igsh=MW1qYjR2ZDN4aHc2">
             <LuInstagram />
           </a>
         </li>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section id="hero" className="py-12">
+    <section id="home" className="py-12">
       <div className="text-lg text-my-green font-mono">Hi, my name is</div>
       <div className="text-7xl font-sans font-bold text-my-lightest-slate leading-relaxed">
         Sarvesh More.

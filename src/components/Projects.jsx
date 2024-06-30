@@ -36,7 +36,7 @@ const Projects = () => {
               <li className="p-2">TensorFlow.Js</li>
             </ul>
             <div className="hover:text-my-green text-my-light-slate text-xl flex justify-end p-1">
-              <a href="http://">
+              <a href="https://github.com/MoreSarvesh/Applicant-Tracking-System">
                 <LuGithub />
               </a>
             </div>
@@ -61,7 +61,7 @@ const Projects = () => {
               <li className="p-2">React Toastfy</li>
             </ul>
             <div className="hover:text-my-green text-my-light-slate text-xl flex justify-start p-1">
-              <a href="http://">
+              <a href="https://github.com/MoreSarvesh/Expense-Tracker">
                 <LuGithub />
               </a>
             </div>
