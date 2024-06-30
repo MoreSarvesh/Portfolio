@@ -10,38 +10,6 @@ const Projects = () => {
         Some Things I’ve Built
       </h1>
       <div className="flex flex-col gap-16">
-        <div className="flex py-16">
-          <div className="w-[40%] bg-my-green opacity-15 relative left-16">
-            Image
-          </div>
-          <div className="w-[60%] z-10">
-            <h2 className="font-mono font-bold text-2xl mb-4 text-my-white text-right">
-              Applicant Tracking System
-            </h2>
-            <div className="bg-my-div-navy text-my-light-slate p-6 rounded-lg">
-              Developed to streamline the recruitment process for recruiters,
-              incorporating features such as job listings, resume ranking using
-              TensorFlow.js, and automated assessments and emails via the OpenAI
-              API. Implemented a robust backend with Node.js and MongoDB, and
-              built a user-friendly frontend with React.js. This project
-              enhanced my skills in MERN stack development, API integration, and
-              comprehensive project management.
-            </div>
-            <ul className="flex gap-2 text-nowrap justify-end text-my-lightest-slate font-mono py-2">
-              <li className="p-2">MongoDB</li>
-              <li className="p-2">Express.Js</li>
-              <li className="p-2">React.Js</li>
-              <li className="p-2">Node.Js</li>
-              <li className="p-2">OpenAI API</li>
-              <li className="p-2">TensorFlow.Js</li>
-            </ul>
-            <div className="hover:text-my-green text-my-light-slate text-xl flex justify-end p-1">
-              <a href="https://github.com/MoreSarvesh/Applicant-Tracking-System">
-                <LuGithub />
-              </a>
-            </div>
-          </div>
-        </div>
         <div className="flex">
           <div className="w-[60%] z-10">
             <h2 className="font-mono font-bold text-2xl mb-4 text-my-white text-left">

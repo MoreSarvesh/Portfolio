@@ -15,7 +15,7 @@ import { IoIosArrowDropup } from "react-icons/io";
 
 const Main = () => {
   return (
-    <div className="bg-my-navy sm:px-64">
+    <div className="bg-my-navy px-64">
       <ul className="flex flex-col gap-7 social-links text-my-light-slate pl-16 text-xl font-mono ">
         <li className="hover:text-my-green hover:-translate-y-1">
           <a href="https://github.com/MoreSarvesh">
@@ -40,15 +40,15 @@ const Main = () => {
       <Work />
       <Projects />
       <Contact />
-      <div className="text-write-mode-vertical pr-16">
-        <div className=" text-my-light-slate text-sm hover:text-my-green hover:-translate-y-1 font-mono inline-block">
+      <div className="text-write-mode-vertical pr-12">
+        <div className=" text-my-light-slate text-sm hover:text-my-green hover:-translate-y-2 font-mono inline-block duration-150">
           <a href="mailto:sarveshmore1324@gmail.com">
             sarveshmore1324@gamil.com
           </a>
         </div>
       </div>
       <div
-        className="text-xl bottom-1 w-4 right-1 sm:text-3xl text-my-white hover:text-my-green hover:-translate-y-1 duration-150 fixed sm:bottom-8 sm:right-32"
+        className="text-3xl text-my-white hover:text-my-green hover:-translate-y-2 duration-150 fixed bottom-8 right-32"
         title="Back to Top"
       >
         <a href="#home">
