@@ -5,11 +5,14 @@ import { LuInstagram } from "react-icons/lu";
 
 const Contact = () => {
   return (
-    <section className="py-52 px-16 flex flex-col items-center" id="contact">
-      <h1 className="text-5xl font-sans font-bold text-my-lightest-slate leading-relaxed">
+    <section
+      className="py-44 flex flex-col items-center xl:py-52 xl:px-16"
+      id="contact"
+    >
+      <h1 className="text-4xl font-sans font-bold text-my-lightest-slate leading-relaxed xl:text-5xl">
         Get In Touch
       </h1>
-      <div className="text-lg font-sans text-my-slate w-1/2 leading-relax mt-7 text-center">
+      <div className="text-lg font-sans text-my-slate leading-relax mt-7 text-center xl:text-lg xl:w-1/2">
         Want to collaborate on a project or just want to say hi? Feel free to
         send me a message!
       </div>

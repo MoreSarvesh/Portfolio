@@ -2,11 +2,11 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-8 text-sm  bg-my-navy text-my-lightest-slate font-mono text-md">
-      <div className="px-3 py-2 hover:text-my-green ">
+    <nav className="flex justify-between p-4 text-my-white font-mono  xl:p-8 xl:text-sm">
+      <div className="hover:text-my-green xl:px-3 xl:py-2">
         <a href="#">Home</a>
       </div>
-      <div className="flex gap-4">
+      <div className="hidden xl:flex xl:gap-4">
         <span className="px-3 py-2 hover:text-my-green">
           <a href="#about">About</a>
         </span>
@@ -33,7 +33,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 

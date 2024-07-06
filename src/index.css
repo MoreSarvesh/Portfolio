@@ -12,29 +12,4 @@ html {
 
 .text-write-mode-vertical {
   writing-mode: vertical-rl;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  letter-spacing: 0.17rem;
-}
-
-.social-links {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-
-.social-links::after,
-.text-write-mode-vertical::after {
-  content: "";
-  display: inline-block;
-  width: 2px;
-  height: 100px;
-  align-items: center;
-  background-color: #a8b2d1;
-  margin-top: 20px;
-}
-
-.social-links::after {
-  margin: 0 auto;
 }

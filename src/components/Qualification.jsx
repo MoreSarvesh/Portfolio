@@ -4,7 +4,7 @@ const Qualification = () => {
   return (
     <>
       {myQualifications.map((quali) => (
-        <div key={quali.id} className="py-4">
+        <div key={quali.id} className="py-4 xl:flex-grow">
           <h2 className="font-sans text-xl text-my-white">
             {quali.course + " "}
             <span className="text-my-green font-mono">

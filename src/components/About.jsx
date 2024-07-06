@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-52 px-16" id="about">
-      <h1 className="font-sans font-bold text-3xl relative after:absolute text-my-white after:top-1/2 after:bg-my-lightest-navy after:ml-2 after:h-px after:inline-block after:w-2/5 mb-6">
+    <section className="py-44 xl:py-52 xl:px-16" id="about">
+      <h1 className="text-2xl font-sans font-bold relative after:absolute text-my-white after:top-1/2 after:bg-my-lightest-navy after:ml-2 after:h-px after:inline-block after:w-[60%] mb-6 xl:text-3xl">
         About Me
       </h1>
-      <div className="flex flex-row flex-grow">
-        <div className="min-w-[60%] flex flex-col gap-4 text-my-slate text-lg">
+      <div className="flex flex-col flex-grow xl:flex-row">
+        <div className=" flex flex-col gap-4 text-my-slate xl:min-w-[60%] xl:text-lg">
           <p>
             I'm a recent graduate with a Bachelor's degree in{" "}
             <span className="text-my-green">Computer Engineering</span>, excited
@@ -26,7 +26,7 @@ const About = () => {
             helping me stay fit and focused.
           </p>
         </div>
-        <div className="bg-red-300 min-w-[40%] m-6">Image</div>
+        <div className="bg-red-300 m-6 xl:min-w-[40%]">Image</div>
       </div>
     </section>
   );
