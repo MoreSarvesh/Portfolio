@@ -12,7 +12,7 @@ const ats = {
     "TensorFlow.Js",
   ],
   github: "https://github.com/MoreSarvesh/Applicant-Tracking-System",
-  img: "",
+  img: "/assets/images/ATSThumbnail.png",
 };
 
 const expenseTracker = {
@@ -22,7 +22,7 @@ const expenseTracker = {
     "Developed a user-friendly expense tracker web application using React.js and the latest React Router. The application features intuitive functionalities for tracking expenses, creating budgets, and generating financial insights.",
   skills: ["React.Js", "React Router v6", "React Toastfy"],
   github: "https://github.com/MoreSarvesh/Expense-Tracker",
-  img: "",
+  img: "/assets/images/ExpenseTrackerThumbnail.png",
 };
 
 export const myProjects = [ats, expenseTracker];

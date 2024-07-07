@@ -1,23 +1,26 @@
 import { LuGithub } from "react-icons/lu";
 import { myProjects } from "../DB/projects.js";
-import { useState } from "react";
 
 const Project = () => {
   let flag = false;
   return (
     <>
       {myProjects.map((pro, i) => (
-        <div key={pro.id} className="flex py-8 xl:py-16">
+        <div key={pro.id} className="flex py-8 xl:py-16 items-center">
           {i % 2 === 0 ? (
             <div
-              className={`hidden xl:block xl:w-[40%] xl:bg-my-green opacity-15 xl:relative xl:left-16`}
+              className={`hidden xl:block xl:bg-my-green opacity-15 hover:opacity-100`}
             >
-              {pro.img}img
+              <img src={pro.img} alt={pro.title} className="" />
             </div>
           ) : (
             (flag = true)
           )}
-          <div className="bg-slate-200 bg-opacity-5 py-8 px-4 shadow-inner rounded-lg xl:w-[60%] xl:z-10 xl:py-0 xl:px-0 xl:bg-transparent xl:shadow-none">
+          <div
+            className={`bg-slate-200 bg-opacity-5 py-8 px-4 shadow-inner rounded-lg xl:w-[50%] xl:z-10 xl:py-0 xl:px-0 xl:bg-transparent xl:shadow-none xl:relative ${
+              i % 2 === 0 ? "xl:-left-16" : "xl:left-16"
+            } `}
+          >
             <h2
               className={`font-mono font-bold text-2xl mb-8  text-my-white  ${
                 i % 2 === 0 ? "text-right" : "text-left"
@@ -51,9 +54,9 @@ const Project = () => {
           </div>
           {flag && (
             <div
-              className={`hidden xl:block xl:w-[40%] xl:bg-my-green opacity-15 xl:relative xl:-left-16`}
+              className={`hidden xl:block xl:w-[50%] xl:bg-my-green opacity-15 hover:opacity-100`}
             >
-              {pro.img}img
+              <img src={pro.img} alt={pro.title} />
             </div>
           )}
         </div>

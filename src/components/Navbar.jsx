@@ -1,10 +1,16 @@
 import React from "react";
+import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between p-4 text-my-white font-mono  xl:p-8 xl:text-sm">
-      <div className="hover:text-my-green xl:px-3 xl:py-2">
-        <a href="#">Home</a>
+    <nav
+      className="flex justify-between items-center p-4 text-my-white font-mono  xl:p-8 xl:text-sm"
+      id="home"
+    >
+      <div className="hover:text-my-green xl:ml-6 text-my-white">
+        <a href="#">
+          <Logo />
+        </a>
       </div>
       <div className="hidden xl:flex xl:gap-4">
         <span className="px-3 py-2 hover:text-my-green">
@@ -26,7 +32,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </span>
         <div className="bg-my-green rounded-md border-my-green">
-          <a href="http://">
+          <a href="https://drive.google.com/file/d/1Y5Wp3O54mjY58z4sAglgMkj2zCx6cUfl/view?usp=sharing">
             <div className=" px-5 py-2 bg-my-navy border rounded-md border-my-green text-my-green relative hover:-translate-y-1 hover:-translate-x-1 duration-150">
               Resume
             </div>

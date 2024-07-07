@@ -15,7 +15,7 @@ import { IoIosArrowDropup } from "react-icons/io";
 
 const Main = () => {
   return (
-    <div className="p-8 xl:px-64">
+    <div className="p-8 xl:px-[16%]">
       <ul className="hidden xl:flex xl:flex-col xl:items-center xl:gap-7 xl:fixed xl:bottom-0 xl:left-0 xl:after:inline-block xl:after:h-[90px] xl:after:bg-white xl:after:w-[1px] xl:text-my-light-slate xl:pl-16 xl:text-xl xl:font-mono ">
         <li className="hover:text-my-green hover:-translate-y-1">
           <a href="https://github.com/MoreSarvesh">
