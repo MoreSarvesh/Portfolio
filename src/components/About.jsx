@@ -26,7 +26,14 @@ const About = () => {
             helping me stay fit and focused.
           </p>
         </div>
-        <div className="bg-red-300 m-6 xl:min-w-[40%]">Image</div>
+
+        <div className="bg-transparent my-6 mx-6 xl:my-0 xl:min-w-[40%] border-4 border-my-green relative">
+          <img
+            src="./assets/images/SarveshImage.jpeg"
+            alt="Sarvesh's Image"
+            className="-translate-x-4 -translate-y-4"
+          />
+        </div>
       </div>
     </section>
   );
