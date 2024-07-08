@@ -6,7 +6,7 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
     <nav
-      className="flex justify-between items-center p-4 text-my-white font-mono  xl:p-8 xl:text-sm"
+      className="flex justify-between items-center p-4 text-my-white font-mono fixed top-0 w-full xl:p-8 xl:text-sm"
       id="home"
     >
       <div className="hover:text-my-green xl:ml-1 text-my-white p-1 h-12 w-[4.5rem]">
@@ -14,7 +14,7 @@ const Navbar = () => {
           <Logo />
         </a>
       </div>
-      {showNav && <Sidebar />}
+      {showNav && <Sidebar setShowNav={setShowNav} />}
       <div className="hidden xl:flex xl:gap-4">
         <span className="px-3 py-2 hover:text-my-green">
           <a href="#about">About</a>
@@ -49,10 +49,10 @@ const Navbar = () => {
         }}
       >
         <div
-          className={`bg-white hover: w-full h-1 before:w-[80%] before:h-1 before:bg-white before:absolute before:left-0 before:top-0 before:m-1 before:origin-right after:w-[80%] after:h-1 after:bg-white after:absolute after:left-0 after:bottom-0 after:m-1 after:origin-right ${
+          className={` hover: w-full h-1 before:w-[80%] before:h-1 before:bg-white before:absolute before:left-0 before:top-0 before:m-1 before:origin-right after:w-[80%] after:h-1 after:bg-white after:absolute after:left-0 after:bottom-0 after:m-1 after:origin-right ${
             showNav
               ? " bg-transparent after:scale-x-125 after:rotate-45 before:-rotate-45 before:scale-x-125"
-              : ""
+              : "bg-white"
           }`}
         ></div>
       </div>
