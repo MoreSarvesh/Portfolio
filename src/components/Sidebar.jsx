@@ -1,8 +1,11 @@
 import React from "react";
 
-const Sidebar = () => {
+const Sidebar = ({ setShowNav }) => {
   return (
-    <div className="backdrop-blur-sm fixed top-0 h-full w-screen z-30">
+    <div
+      className="backdrop-blur-sm fixed top-0 h-full w-screen z-30"
+      onClick={() => setShowNav((prev) => !prev)}
+    >
       <ol className="flex flex-col items-center justify-center fixed  right-0 h-full bg-my-light-navy w-[70%] text-my-white font-mono xl:hidden ">
         <li className="px-3 py-4 hover:text-my-green text-lg w-full text-center">
           <a href="#about" className="inline-block w-full">

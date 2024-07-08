@@ -5,10 +5,7 @@ import Sidebar from "./Sidebar";
 const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
   return (
-    <nav
-      className="flex justify-between items-center p-4 text-my-white font-mono fixed top-0 w-full xl:p-8 xl:text-sm"
-      id="home"
-    >
+    <nav className="flex justify-between items-center p-4 text-my-white font-mono fixed top-0 w-full z-50 xl:p-8 xl:text-sm bg-my-navy">
       <div className="hover:text-my-green xl:ml-1 text-my-white p-1 h-12 w-[4.5rem]">
         <a href="#">
           <Logo />
