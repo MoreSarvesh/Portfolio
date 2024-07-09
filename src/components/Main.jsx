@@ -23,7 +23,7 @@ const Main = () => {
           </a>
         </li>
         <li className="hover:text-my-green hover:-translate-y-1">
-          <a href="www.linkedin.com/in/moresarvesh">
+          <a href="https://www.linkedin.com/in/moresarvesh">
             <LuLinkedin />
           </a>
         </li>
