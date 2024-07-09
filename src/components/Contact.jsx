@@ -23,7 +23,7 @@ const Contact = () => {
           </a>
         </li>
         <li className="hover:text-my-green text-my-light-slate text-xl hover:-translate-y-1">
-          <a href="https://www.linkedin.com/in/sarvesh-more-b255b51b9">
+          <a href="www.linkedin.com/in/moresarvesh">
             <LuLinkedin />
           </a>
         </li>
