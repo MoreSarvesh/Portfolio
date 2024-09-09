@@ -35,8 +35,8 @@ const cascode = {
 
 const globalstep = {
   id: 3,
-  date: "March 2024 - Present",
-  title: "Test Enginner",
+  date: "March 2024 - July 2024",
+  title: "Game Test Enginner",
   org: "Globalstep",
   description:
     "Responsible for ensuring the quality and performance of games by executing thorough smoke testing, ad-hoc testing, and scripted testing. Also identify and report bugs using Jira communicate with team of testers and manage daily tasks. Enhanced my ability to communicate effectively with team members, and gained valuable experience in task management and coordination within a fast-paced environment.",
