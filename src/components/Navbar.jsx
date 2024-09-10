@@ -32,7 +32,7 @@ const Navbar = () => {
           <a href="#contact">Contact</a>
         </span>
         <div className="bg-my-green rounded-md border-my-green">
-          <a href="https://drive.google.com/file/d/1Y5Wp3O54mjY58z4sAglgMkj2zCx6cUfl/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1yH9nfafB2ALxtRRYqRuic2F43nY75hnZ/view?usp=sharing">
             <div className=" px-5 py-2 bg-my-navy border rounded-md border-my-green text-my-green relative hover:-translate-y-1 hover:-translate-x-1 duration-150">
               Resume
             </div>
