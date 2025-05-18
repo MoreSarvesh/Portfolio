@@ -56,7 +56,7 @@ const Main = () => {
         </a>
       </div>
       <p className="text-center text-my-slate">
-        Developed by @Sarvesh More, inspired by @Brittany Chiang.
+        Developed by @Sarvesh More, inspired from @Brittany Chiang.
       </p>
     </div>
   );

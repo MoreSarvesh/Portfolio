@@ -1,5 +1,11 @@
 import React from "react";
-
+import {
+  frontend,
+  backend,
+  programmingLanguages,
+  tools,
+  databasesAndOdm,
+} from "../DB/skills";
 const Skills = () => {
   return (
     <section className="py-44 xl:py-52 xl:px-16" id="skills">
@@ -10,61 +16,64 @@ const Skills = () => {
         <div className="xl:flex-grow xl:flex xl:flex-col xl:justify-between">
           <div className="py-4 xl:p-4">
             <h2 className="font-serif font-bold text-xl mb-1 text-my-light-slate xl:text-xl xl:mb-4">
-              Development Stack
+              Frontend Technologies
             </h2>
-            <ul className="flex flex-row flex-wrap text-my-green font-mono xl:flex-nowrap xl:gap-4">
-              <li className="px-2 py-1">MongoDB</li>
-              <li className="px-2 py-1">Express.Js</li>
-              <li className="px-2 py-1">React.Js</li>
-              <li className="px-2 py-1">Node.Js</li>
+            <ul className="flex flex-row flex-wrap text-my-green font-mono xl:gap-4">
+              {frontend.map((tech, i) => (
+                <li key={i} className="mx-2 my-1 text-nowrap border-b-2">
+                  {tech}
+                </li>
+              ))}
             </ul>
           </div>
           <div className="py-4 xl:p-4">
             <h2 className="font-serif font-bold text-xl mb-1 text-my-light-slate xl:text-xl xl:mb-4">
-              Programing Languages
+              Backend Technologies
             </h2>
             <ul className="flex flex-row flex-wrap text-my-green font-mono">
-              <li className="px-2 py-1">C</li>
-              <li className="px-2 py-1">C++</li>
-              <li className="px-2 py-1">Java</li>
-              <li className="px-2 py-1">JavaScript(ES6+)</li>
-              <li className="px-2 py-1">TypeScript</li>
+              {backend.map((tech, i) => (
+                <li key={i} className="mx-2 my-1 border-b-2">
+                  {tech}
+                </li>
+              ))}
             </ul>
           </div>
           <div className="py-4 xl:p-4">
             <h2 className="font-serif font-bold text-xl mb-1 text-my-light-slate xl:text-xl xl:mb-4">
-              Database
+              Databases & ODMs / ORMs
             </h2>
             <ul className="flex flex-row flex-wrap text-my-green font-mono">
-              <li className="px-2 py-1">MongoDb</li>
-              <li className="px-2 py-1">MySQL</li>
+              {databasesAndOdm.map((tech, i) => (
+                <li key={i} className="mx-2 my-1 border-b-2">
+                  {tech}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
         <div className="flex justify-between gap-12 xl:flex-col xl:pl-8">
           <div className="xl:p-4 xl:px-12">
             <h2 className="font-serif font-bold text-xl mb-1 text-my-light-slate text-wrap xl:text-xl xl:mb-4 ">
-              Frameworks / Libraries
+              Programing Languages
             </h2>
             <ul className="text-my-green font-mono list-disc">
-              <li className="px-2 py-1">Next.Js</li>
-              <li className="px-2 py-1">React Query</li>
-              <li className="px-2 py-1">React Router v6</li>
-              <li className="px-2 py-1">Tailwind CSS</li>
-              <li className="px-2 py-1">Mongoose</li>
-              <li className="px-2 py-1">jsonwebtoken</li>
-              <li className="px-2 py-1">Axios</li>
+              {programmingLanguages.map((tech, i) => (
+                <li key={i} className="px-2 py-1">
+                  {tech}
+                </li>
+              ))}
             </ul>
           </div>
           <div className="xl:p-4 xl:px-12">
             <h2 className="font-serif font-bold text-xl mb-1 text-my-light-slate xl:text-xl xl:mb-4">
-              Tools
+              Developer Tools
             </h2>
             <ul className="text-my-green font-mono list-disc">
-              <li className="px-2 py-1">Git + Github</li>
-              <li className="px-2 py-1">npm</li>
-              <li className="px-2 py-1">Chrome dev tools</li>
-              <li className="px-2 py-1">Postman / Thunderclient</li>
+              {tools.map((tech, i) => (
+                <li key={i} className="px-2 py-1">
+                  {tech}
+                </li>
+              ))}
             </ul>
           </div>
         </div>

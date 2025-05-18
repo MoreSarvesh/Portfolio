@@ -1,6 +1,25 @@
+const months = {
+  jan: "January",
+  feb: "Feburary",
+  mar: "March",
+  apr: "April",
+  may: "May",
+  jun: "June",
+  jul: "July",
+  aug: "August",
+  sep: "September",
+  oct: "October",
+  nov: "November",
+  dec: "December",
+};
+
+const createDate = (startMonth, startYear, endMonth, endYear) => {
+  return `${startMonth} ${startYear} - ${endMonth} ${endYear ? endYear : ""}`;
+};
+
 const cact = {
   id: 1,
-  date: "August 2022 - December 2022",
+  date: createDate(months.aug, "2022", months.dec, "2022"),
   title: "Programing Tutor",
   org: "CACT",
   description:
@@ -17,7 +36,7 @@ const cact = {
 
 const cascode = {
   id: 2,
-  date: "January 2023 - Feburary 2023",
+  date: createDate(months.jan, "2023", months.feb, "2023"),
   title: "Front-End Intern",
   org: "CasCode",
   description:
@@ -35,7 +54,7 @@ const cascode = {
 
 const globalstep = {
   id: 3,
-  date: "March 2024 - July 2024",
+  date: createDate(months.mar, "2024", months.jul, "2024"),
   title: "Game Test Enginner",
   org: "Globalstep",
   description:
@@ -50,4 +69,23 @@ const globalstep = {
   ],
 };
 
-export const myJobs = [globalstep, cascode, cact];
+const barclays = {
+  id: 4,
+  date: createDate(months.jan, "2025", "Present"),
+  title: "Full Stack developer: BA3",
+  org: "Barclays",
+  description:
+    "As a Full Stack Developer at Barclays, I contribute in designing, developing, and maintaining scalable web applications using modern technologies across the frontend and backend. My role involves implementing RESTful APIs, and ensuring seamless user experiences.",
+  skills: [
+    "React.js",
+    "Web Content Accessibility",
+    "Node.js",
+    "Java",
+    "Spring boot",
+    "Jenkins",
+    ,
+  ],
+};
+
+//latest first
+export const myJobs = [barclays, globalstep, cascode, cact];
